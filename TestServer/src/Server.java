@@ -8,6 +8,7 @@ import java.net.Socket;
 
 public class Server {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException {
 		
 		Socket socket = null;
