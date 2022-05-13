@@ -35,7 +35,7 @@ public class Server {
 					String msgFromClient = bufferedReader.readLine();
 					System.out.println("Client: " + msgFromClient);
 					
-					bufferedWriter.write("MSG Received.");
+					bufferedWriter.write("Message Received.");
 					bufferedWriter.newLine();
 					
 					bufferedWriter.flush();
