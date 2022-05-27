@@ -40,7 +40,7 @@ public class Server {
 					
 					bufferedWriter.flush();
 					
-					if (msgFromClient.equalsIgnoreCase("BYE"))
+					if (msgFromClient.equalsIgnoreCase("Disconnected"))
 						break;
 				}
 				
