@@ -60,6 +60,6 @@ public class Card {
 			break;
 		}
 		
-		return numStr + " of " + mySuit.toString();																																													
+		return numStr + " of " + mySuit.toString() + ".";																																													
 	}
 }
