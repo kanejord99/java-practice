@@ -17,6 +17,9 @@ public class Client {
 		BufferedWriter bufferedWriter = null;
 		
 		try {
+			
+			//socket
+			
 			socket = new Socket("localhost", 1234);
 			
 			inputStreamReader = new InputStreamReader(socket.getInputStream());
